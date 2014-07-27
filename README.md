@@ -14,7 +14,7 @@ We loop from 1 to 100, and then each time whether the number is multiple of thre
 Simply pipe the output of your program to diff and comapre it with expect_output.txt by
 
 ```bash
-ujjwol@mycomputer:Fun/FizzBuzz$ ./Node.Js/FizzBuzz.js | diff expected_output.txt -
+ujjwol@mycomputer:Fun/FizzBuzz$ ./Python/FizzBuzz.py | diff expected_output.txt -
 ujjwol@mycomputer:Fun/FizzBuzz$
 ```
 No output in the shell means, there is no difference hence your FizzBuzz matches the expected output.
